@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img {
+    width: 900px;
+    height: 500px;
+    border: 3px solid black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.button-container {
+    display: flex;
+    gap: 25px;
+}
+/* buttons */
+.next, .previous {
+    width: 150px;
+    height: 50px;
+}
+
+
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
